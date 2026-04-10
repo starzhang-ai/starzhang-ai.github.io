@@ -1,0 +1,16 @@
+<footer aria-label="Site Info" class="d-flex flex-column justify-content-center text-muted flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-3">
+  <p class="mb-2 mb-lg-0">
+    {{- '©' }}
+    {{ 'now' | date: '%Y' }}
+
+    {% if site.social.links and site.social.links.size > 0 %}
+      <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
+    {% else %}
+      {{ site.social.name }}.
+    {% endif %}
+
+    {% if site.data.locales[include.lang].copyright.brief %}
+      <span class="ms-1">{{- site.data.locales[include.lang].copyright.brief -}}</span>
+    {% endif %}
+  </p>
+</footer>
