@@ -1,8 +1,8 @@
 ---
 title: 信息茧房，互联网时代的人们
 date: 2026-01-13
-categories: [思维方法, 互联网观察]
-tags: [信息茧房, 算法, 学习方法]
+categories: [Thinking]
+tags: [Internet, self-examination]
 ---
 
 ## 信息茧房，互联网时代的人们
